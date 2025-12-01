@@ -1,0 +1,4 @@
+# Minimal requirements for test server (no AI models)
+flask==3.0.0
+numpy==1.24.3
+soundfile==0.12.1

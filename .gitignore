@@ -1,0 +1,51 @@
+# Build directories
+build/
+cmake-build-*/
+*.xcodeproj
+*.xcworkspace
+
+# Compiled files
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.vst3
+*.component
+
+# Python
+python_backend/venv/
+python_backend/__pycache__/
+python_backend/*.pyc
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+*.dSYM
+
+# Windows
+*.pdb
+*.ilk
+*.exe
+*.user
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+/tmp/
+
+# Generated audio
+*.wav
+!example.wav
+
+# JUCE specific
+JuceLibraryCode/
+Builds/
